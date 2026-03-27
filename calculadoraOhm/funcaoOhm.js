@@ -17,22 +17,7 @@ Usuário, digite a sua escolha:`))
 
     switch(escolhaCalc4) {
         case 1:
-            tensao();
-            break;
-        case 2:
-            resistencia();
-            break;
-        case 3:
-            corrente();
-            break;
-        default:
-            alert(`OPÇÃO DE CÁLCULO COM A FÓRMULA DA LEI DE OHM INVÁLIDA!`);
-            break;
-    }
-}
-
-function tensao() {
-    alert(`Você escolheu calcular a TENSÃO, segue abaixo a fórmula para descobrir ela!
+            alert(`Você escolheu calcular a TENSÃO, segue abaixo a fórmula para descobrir ela!
                 
 TENSÃO (U) = RESISTÊNCIA (R) x CORRENTE (I)
 
@@ -47,10 +32,9 @@ Calcular: TENSÃO
 TENSÃO (U) = ` + ohms + `Ω  x  ` + amperagem + `A
 
 RESULTADO (Volts): ` + voltagem + `V`);
-}
-
-function resistencia() {
-    alert(`Você escolheu calcular a RESISTÊNCIA, segue abaixo a fórmula para descobrir ela!
+            break;
+        case 2:
+            alert(`Você escolheu calcular a RESISTÊNCIA, segue abaixo a fórmula para descobrir ela!
                 
 RESISTÊNCIA (R) = TENSÃO (U) / CORRENTE (I)
 
@@ -65,22 +49,27 @@ Calcular: RESISTÊNCIA
 RESISTÊNCIA (Ohm) = ` + voltagem + `V  /  ` + amperagem + `A
 
 RESULTADO (Ohm): ` + ohms + `Ω`);
-}
-
-function corrente() {
-    alert(`Você escolheu calcular a CORRENTE, segue abaixo a fórmula para descobrir ela!
+        
+            break;
+        case 3:
+            alert(`Você escolheu calcular a CORRENTE, segue abaixo a fórmula para descobrir ela!
                 
 CORRENTE (I) = TENSÃO (U) / RESISTÊNCIA (R)
 
 Clique em OK para prosseguir!`);
-    voltagem = parseFloat(prompt(`Digite a quantidade de TENSÃO (em Volts) para a realização do cálculo: `));
-    ohms = parseFloat(prompt(`Digite a quantidade de RESISTÊNCIA (em Ohms) para a realização do cálculo: `));
-    amperagem = voltagem / ohms;
-    alert(`----------RESULTADOS---------
+            voltagem = parseFloat(prompt(`Digite a quantidade de TENSÃO (em Volts) para a realização do cálculo: `));
+            ohms = parseFloat(prompt(`Digite a quantidade de RESISTÊNCIA (em Ohms) para a realização do cálculo: `));
+            amperagem = voltagem / ohms;
+            alert(`----------RESULTADOS---------
         
 Calcular: CORRENTE
 
 CORRENTE (Ampere) = ` + voltagem + `V  /  ` + ohms + `Ω
 
 RESULTADO (Ampere): ` + amperagem + `A`);
+            break;
+        default:
+            alert(`OPÇÃO DE CÁLCULO COM A FÓRMULA DA LEI DE OHM INVÁLIDA!`);
+            break;
+    }
 }
