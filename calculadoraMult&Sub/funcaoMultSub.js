@@ -87,43 +87,43 @@ Desenvolvida por: Thiago Rafael Mathias - MI82`);
                     valorConvertido = valorBase * 1000000000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + ' G' + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + " " + unidadeMedida);
                     break;
                 case 'M': 
                     valorConvertido = valorBase * 1000000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + ' M' + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + " " + unidadeMedida);
                     break;
                 case 'k':
                     valorConvertido = valorBase * 1000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + ' k' + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + " " + unidadeMedida);
                     break;
                 case 'm':
                     valorConvertido = valorBase / 1000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + ' m' + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + " " + unidadeMedida);
                     break;
                 case 'mc':
                     valorConvertido = valorBase / 1000000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + ' μ' + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + " " + unidadeMedida);
                     break;
                 case 'n':
                     valorConvertido = valorBase / 1000000000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + ' n' + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + " " + unidadeMedida);
                     break;
                 case 'p':
                     valorConvertido = valorBase / 1000000000000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + ' p' + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + " " + unidadeMedida);
                     break;
                 default:
                     break;
