@@ -299,3 +299,5 @@ Tolerância (+): ` + max + `Ω (Ohm)`);
             break;
     }
 }
+
+// FINALIZAÇÃO DO CÓDIGO DA TARDE!
