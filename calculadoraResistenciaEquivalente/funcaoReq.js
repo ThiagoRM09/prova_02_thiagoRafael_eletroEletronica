@@ -1,4 +1,4 @@
-let reqSerie = 0, reqParalelo = 0;
+let escolhaEquivalente = 0, qtdResistencias = 0, resistencia = 0, reqSerie = 0, reqParalelo = 0, paralelo = 0;
 
 function opcaoCalc5() {
     alert(`SEJA BEM VINDO - CALCULADORA DE RESISTÊNCIA EQUIVALENTE EM SÉRIE E EM PARALELO!
@@ -7,7 +7,7 @@ function opcaoCalc5() {
 
 Desenvolvida por: Thiago Rafael Mathias - MI82.`);
 
-    let escolhaEquivalente = parseInt(prompt("Digite uma das opções abaixo: \n\n(1) - Calcular a resistência equivalente de um circuito em SÉRIE!\n(2) - Calcular a resistência equivalente de um circuito em PARALELO!\n\nUsuário, digite a sua escolha: "));
+    escolhaEquivalente = parseInt(prompt("Digite uma das opções abaixo: \n\n(1) - Calcular a resistência equivalente de um circuito em SÉRIE!\n(2) - Calcular a resistência equivalente de um circuito em PARALELO!\n\nUsuário, digite a sua escolha: "));
 
     switch(escolhaEquivalente) {
         case 1:
@@ -15,10 +15,10 @@ Desenvolvida por: Thiago Rafael Mathias - MI82.`);
 \nReq = Res1 + Res2 + ... + ResN
 \nClique em 'OK' para continuar!`);
 
-            let qtdResistencias = parseInt(prompt("Digite a quantidade de RESISTÊNCIAS que serão digitadas para o cálculo em SÉRIE: "));
+            qtdResistencias = parseInt(prompt("Digite a quantidade de RESISTÊNCIAS que serão digitadas para o cálculo em SÉRIE: "));
 
             for(let contador = 0; contador < qtdResistencias; contador++) {
-                let resistencia = parseFloat(prompt("Digite a resistência de número " + (contador + 1) + " (em Ω - Ohm): "));
+                resistencia = parseFloat(prompt("Digite a resistência de número " + (contador + 1) + " (em Ω - Ohm): "));
                 reqSerie += resistencia;
             }
 
@@ -33,12 +33,12 @@ Desenvolvida por: Thiago Rafael Mathias - MI82.`);
 
             for(let contador = 0; contador < qtdResistencias; contador++) {
                 resistencia = parseFloat(prompt("Digite a resistência de número " + (contador + 1) + " (em Ω - Ohm): "));
-                reqParalelo += 1/resistencia;
+                reqParalelo += 1 / resistencia;
             }
 
-            reqParalelo = reqParalelo ** -1;
+            paralelo = 1 / reqParalelo;
 
-            alert(`Com base nos ` + qtdResistencias + ` números dados, a resistência equivalente em PARALELO é: ` + reqParalelo + ` Ω`);
+            alert(`Com base nos ` + qtdResistencias + ` números dados, a resistência equivalente em PARALELO é: ` + paralelo + ` Ω`);
             break;
         default:
             alert(`Opção de cálculo de resistência equivalente INVÁLIDA!`);
