@@ -22,7 +22,7 @@ Desenvolvida por: Thiago Rafael Mathias - MI82.`);
                 reqSerie += resistencia;
             }
 
-            alert(`Com base nos ` + qtdResistencias + ` números dados, a resistência equivalente em SÉRIE é: ` + reqSerie + `Ω`);
+            alert(`Com base nos ` + qtdResistencias + ` números dados, a resistência equivalente em SÉRIE é: ` + reqSerie + ` Ω`);
             break;
         case 2:
             alert(`Você decidiu calcular a resistência equivalente de um circuito em PARALELO, segue abaixo a fórmula que será utilizada para o cálculo: 
@@ -38,7 +38,7 @@ Desenvolvida por: Thiago Rafael Mathias - MI82.`);
 
             reqParalelo = reqParalelo ** -1;
 
-            alert(`Com base nos ` + qtdResistencias + ` números dados, a resistência equivalente em PARALELO é: ` + reqParalelo + `Ω`);
+            alert(`Com base nos ` + qtdResistencias + ` números dados, a resistência equivalente em PARALELO é: ` + reqParalelo + ` Ω`);
             break;
         default:
             alert(`Opção de cálculo de resistência equivalente INVÁLIDA!`);
