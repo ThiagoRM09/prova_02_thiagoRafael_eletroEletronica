@@ -1,6 +1,6 @@
 let eletrodomestico = " ";
 
-alert(`SEJA BEM-VINDO - CALCULADORA DE VÁRIAS FUNÇÕES DA AULA FUNDAMENTOS DA ELETROELETRÔNICA CTWMI82!
+alert(`SEJA BEM-VINDO - CALCULADORA DE VÁRIAS FUNÇÕES DA PROVA FINAL DA AULA FUNDAMENTOS DA ELETROELETRÔNICA CTWMI82!
 
 • Uma calculadora capaz de converter WATTS/QUILOWATTS para descobrir o custo mensal de um certo eletrodoméstico!
 • Uma calculadora capaz de converter valor base para múltiplo/submúltiplo OU algum múltiplo/submúltiplo para valor base!
