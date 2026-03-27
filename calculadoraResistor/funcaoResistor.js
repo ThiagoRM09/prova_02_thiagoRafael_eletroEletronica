@@ -142,9 +142,9 @@ Usuário, digite a sua escolha: `));
             }
             alert(`RESULTADOS DO CÁLCULO DA RESISTÊNCIA - RESISTOR DE 4 FAIXAS
             
-Resistência: ` + resistencia + `Ω (Ohm)
-Tolerância (-): ` + min + `Ω (Ohm)
-Tolerância (+): ` + max + `Ω (Ohm)`);
+Resistência: ` + resistencia + ` Ω (Ohm)
+Tolerância (-): ` + min + ` Ω (Ohm)
+Tolerância (+): ` + max + ` Ω (Ohm)`);
             break;
         case 2:
             alert(`Você escolheu o resistor de 5 faixas!
@@ -291,9 +291,9 @@ Usuário, digite a sua escolha: `));
             }
             alert(`RESULTADOS DO CÁLCULO DA RESISTÊNCIA - RESISTOR 5 FAIXAS
                 
-Resistência: ` + resistencia + `Ω (Ohm)
-Tolerância (-): ` + min + `Ω (Ohm)
-Tolerância (+): ` + max + `Ω (Ohm)`);
+Resistência: ` + resistencia + ` Ω (Ohm)
+Tolerância (-): ` + min + ` Ω (Ohm)
+Tolerância (+): ` + max + ` Ω (Ohm)`);
             break;
         default:
             break;
