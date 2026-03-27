@@ -296,6 +296,7 @@ Tolerância (-): ` + min + ` Ω (Ohm)
 Tolerância (+): ` + max + ` Ω (Ohm)`);
             break;
         default:
+            alert(`Opção de QUANTIDADE DE FAIXAS INVÁLIDA!`)
             break;
     }
 }
