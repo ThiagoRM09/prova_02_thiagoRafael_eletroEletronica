@@ -1,10 +1,3 @@
-/*
-
-OBSERVAÇÃO: O USO DOS NOMES DAS VARIÁVEIS, COMO: amperagem e voltagem 
-É DEVIDO ampere e tensao JÁ ESTAREM DEFINIDOS COMO NOMES DE FUNÇÕES!
-
-*/
-
 let voltagem = 0, ohms = 0, amperagem = 0, resultado = 0;
 
 function opcaoCalc4() {
@@ -51,9 +44,9 @@ Clique em OK para prosseguir!`);
         
 Calcular: TENSÃO
 
-TENSÃO (U) = ` + ohms + ` Ω  x  ` + amperagem + ` A
+TENSÃO (U) = ` + ohms + `Ω  x  ` + amperagem + `A
 
-RESULTADO (Volts): ` + voltagem + ` V`);
+RESULTADO (Volts): ` + voltagem + `V`);
 }
 
 function resistencia() {
@@ -69,9 +62,9 @@ Clique em OK para prosseguir!`);
         
 Calcular: RESISTÊNCIA
 
-RESISTÊNCIA (Ohm) = ` + voltagem + ` V  /  ` + amperagem + ` A
+RESISTÊNCIA (Ohm) = ` + voltagem + `V  /  ` + amperagem + `A
 
-RESULTADO (Ohm): ` + ohms + ` Ω`);
+RESULTADO (Ohm): ` + ohms + `Ω`);
 }
 
 function corrente() {
@@ -87,7 +80,7 @@ Clique em OK para prosseguir!`);
         
 Calcular: CORRENTE
 
-CORRENTE (Ampere) = ` + voltagem + ` V  /  ` + ohms + ` Ω
+CORRENTE (Ampere) = ` + voltagem + `V  /  ` + ohms + `Ω
 
-RESULTADO (Ampere): ` + amperagem + ` A`);
+RESULTADO (Ampere): ` + amperagem + `A`);
 }
