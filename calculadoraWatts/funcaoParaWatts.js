@@ -2,7 +2,7 @@ function watts() {
     let qtdWatts = parseFloat(prompt("Digite a quantidade de WATTS do eletrodoméstico digitado: "));
     let qtdHorasUso = parseInt(prompt("Digite o tempo de uso (em HORAS) diário do eletrodoméstico digitado: "));
     let consumoDiarioKWh = (qtdWatts * qtdHorasUso) / 1000;
-    let valorPorKWh = parseFloat(prompt("Digite o custo por KWh: R$ "));
+    let valorPorKWh = parseFloat(prompt("Digite o custo por KWh (Use PONTO para a vírgula): R$ "));
     let custoDiario = consumoDiarioKWh * valorPorKWh;
 
     alert(`***RESULTADOS DO ELETRODOMÉSTICO***
