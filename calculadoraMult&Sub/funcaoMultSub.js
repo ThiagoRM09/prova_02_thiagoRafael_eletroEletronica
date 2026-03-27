@@ -37,7 +37,7 @@ Desenvolvida por: Thiago Rafael Mathias - MI82`);
                     valorConvertido = valorBase / 1000000;
                     alert(`RESULTADOS DA CONVERSÃO! ` +
                     `VALOR BASE: ` + valorBase + unidadeMedida + 
-                    `\nVALOR CONVERTIDO: ` + valorConvertido + 'k' + unidadeMedida);
+                    `\nVALOR CONVERTIDO: ` + valorConvertido + 'M' + unidadeMedida);
                     break;
                 case 'k':
                     valorConvertido = valorBase / 1000;
